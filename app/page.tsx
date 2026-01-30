@@ -14,8 +14,10 @@ export default function Page() {
 
       <h2>Health check</h2>
       <p>
-        The endpoint <code>/api/health</code> should return <code>{"{ "ok": true }"}</code>.
+        The endpoint <code>/api/health</code> should return{" "}
+        <code>{`{ "ok": true }`}</code>.
       </p>
+
     </main>
   );
 }
